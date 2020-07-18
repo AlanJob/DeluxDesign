@@ -3,3 +3,35 @@
     --white: #ffffff;
     --light-grey:#efefef;        
 }
+
+.bg-dark{
+    background-color: var(--dark)!important;
+}
+
+.navbar{
+    min-height: 5rem;
+}
+.nav-link{
+    color:var(--dark);
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+.body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+    background-color: var(--dark);
+}
+h1,h2,h3,h4,h5, .navbar-brand{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+}
+
+section{
+    padding: 6rem 0;
+}
+#slider{
+    padding: 0;
+}
