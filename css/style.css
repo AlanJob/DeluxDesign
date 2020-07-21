@@ -70,6 +70,16 @@ section{
     padding: 10rem 0;
 
 }
+#tres{
+    background-image: linear-gradient(to right, rgba(209,66,255,1), rgba(64,142,240,1));
+}
+#descuento{
+    /*background-image: linear-gradient(to right, orange, yellow);*/
+}
+#cuatro{
+    /*background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);*/
+    background-color: purple-gradient;
+}
 .button1 {border-radius: 2px;}
 .button2 {border-radius: 4px;}
 .button3 {border-radius: 8px;}
