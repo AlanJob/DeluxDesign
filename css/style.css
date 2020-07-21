@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5, .navbar-brand{
 }
 
 section{
-    padding: 6rem 0;
+    padding: 1rem 0;
 }
 #slider{
     padding: 0;
@@ -60,8 +60,8 @@ section{
     border-color: var(--light) !important;
 }
 .btn-primary:hover{
-    background-color: transparent !important;
-    color: var(--light) !important;
+    background-color: var(--white) !important;
+    color: var(--dark) !important;
     border-color: var(--light) !important;
 }
 .jumbotron{
@@ -71,10 +71,18 @@ section{
 
 }
 #tres{
+    height: 200%;
     background-image: linear-gradient(to right, rgba(209,66,255,1), rgba(64,142,240,1));
 }
+
 #descuento{
-    /*background-image: linear-gradient(to right, orange, yellow);*/
+    background-image: linear-gradient(to right, orange, yellow);
+}
+#producto{
+    
+}
+#oferta{
+    background-image: linear-gradient(to right, rgba(209,66,255,1),rgba(222,58,140));
 }
 #cuatro{
     /*background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);*/
