@@ -64,22 +64,33 @@ section{
     color: var(--dark) !important;
     border-color: var(--light) !important;
 }
-.jumbotron{
-    background-image: url("../img/promo002.jpg");
+.jumbotron-1{
+    background-color: rgba(0,0,0,0.8);
+    /*background-image: url("../img/promo003.jpg");*/
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/promo003.jpg");
+    padding: 10rem 0;
+}
+
+.jumbotron-2{
+    background-color: rgba(0,0,0,0.8);
+    background-image: url("../img/promo001.jpg");
     background-size: cover;
     padding: 10rem 0;
+    filter: grayscale(0%);
+    opacity: 100%;
+}
 
+.bg-purple{
+    background-color: rgba(209,66,255,0.5);
 }
 #tres{
     height: 100%;
     background-image: linear-gradient(to right, rgba(209,66,255,1), rgba(64,142,240,1));
 }
-
 #descuento{
     background-image: linear-gradient(to right, orange, yellow);
 }
 #producto{
-    
 }
 #oferta{
     background-image: linear-gradient(to right, rgba(209,66,255,1),rgba(222,58,140));
