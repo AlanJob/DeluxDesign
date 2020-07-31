@@ -133,3 +133,9 @@ a:hover{
     color: var(--dark);
     text-decoration: none;
 }
+.content-center{
+    /*position:relative;
+    left:40%;*/
+    padding: 7.35rem;
+    margin-top: 0rem;
+}

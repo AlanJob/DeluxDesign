@@ -1,1 +1,9 @@
 https://www.tecnoblinds.com/index.html
+
+https://fonts.google.com/
+Para agregar fuentes a la pagina
+
+https://pixabay.com/
+Imagenes gratis
+
+https://ionicons.com/usage#arrow-forward-outline
