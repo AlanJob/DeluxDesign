@@ -1,9 +1,20 @@
 :root{
     --dark: #1a1a1a;
     --white: #ffffff;
-    --light-grey:#efefef;        
+    --light-grey:#efefef;    
+    --blue: #4285f4;    
+    --green: #00c851; 
 }
 
+.text-green{
+  color: var(--green)
+}
+.text-gray{
+  color: gray;
+}
+.text-blue{
+  color: var(--blue);
+}
 .bg-dark{
     background-color: var(--dark)!important;
 }
@@ -63,6 +74,30 @@ section{
     background-color: var(--white) !important;
     color: var(--dark) !important;
     border-color: var(--light) !important;
+}
+
+.btn-secondary{
+  background-color: var(--blue)!important;
+  color: var(--light) !important;
+  border-color: var(--blue) !important;
+}
+.btn-secondary:hover{
+  background-color: var(--blue)!important;
+  color: var(--light) !important;
+  border-color: var(--blue) !important;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary02{
+  background-color: var(--green)!important;
+  color: var(--light) !important;
+  border-color: var(--green) !important;
+}
+.btn-secondary02:hover{
+  background-color: var(--green)!important;
+  color: var(--light) !important;
+  border-color: var(--green) !important;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .jumbotron-1{
     /*background-color: rgba(0,0,0,0.8);*/
