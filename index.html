@@ -186,12 +186,18 @@
       <a href="#modalQuickView" class="btn button4 btn-primary btn-lg active" role="button" aria-pressed="true" data-toggle="modal" data-target="#modalQuickView">VER CATÁLOGO</a>
 
 
-      <div class="modal fade" id="modalQuickView" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
+      <div class="modal fade right" id="modalQuickView" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog-full-width modal-dialog momodel modal-fluid" role="document">
+        <div class="modal-content-full-width modal-content">
+          <div class=" modal-header-full-width   modal-header text-center">
+            <h5 class="modal-title w-100 text-dark" id="exampleModalPreviewLabel"> Catálogo de Persianas</h5>
+            <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+                <span style="font-size: 1.3em;" aria-hidden="true">&times;</span>
+            </button>
+          </div>
           <div class="modal-body">
             <div class="row">
-              <div class="col-lg-5">
+              <div class="col-md-7">
                 <!--Carousel Wrapper-->
                 <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
                   <!--Slides-->
@@ -224,20 +230,20 @@
                   </a>
                   <!--/.Controls-->
                   <ol class="carousel-indicators">
-                    <li data-target="#carousel-thumb" data-slide-to="0" class="active">
+                    <li class="" data-target="#carousel-thumb" data-slide-to="0" class="active">
                       <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(23).jpg" width="60">
                     </li>
-                    <li data-target="#carousel-thumb" data-slide-to="1">
+                    <li class="" data-target="#carousel-thumb" data-slide-to="1">
                       <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(24).jpg" width="60">
                     </li>
-                    <li data-target="#carousel-thumb" data-slide-to="2">
+                    <li class="" data-target="#carousel-thumb" data-slide-to="2">
                       <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(25).jpg" width="60">
                     </li>
                   </ol>
                 </div>
                 <!--/.Carousel Wrapper-->
               </div>
-              <div class="col-lg-7">
+              <div class="col-md-5">
                 <h2 class="h2-responsive product-name text-dark">
                   <strong>Persiana Enrollable</strong>
                 </h2>
@@ -335,10 +341,10 @@
                     <div class="col-md-6">
     
                       <select class="md-form mdb-select colorful-select dropdown-primary">
-                        <option value="" disabled selected>Choose your option</option>
-                        <option value="1">White</option>
-                        <option value="2">Black</option>
-                        <option value="3">Pink</option>
+                        <option value="" disabled selected>Color</option>
+                        <option value="1">Blanco</option>
+                        <option value="2">Negro</option>
+                        <option value="3">Rosa</option>
                       </select>
                       <label>Select color</label>
     
@@ -346,7 +352,7 @@
                     <div class="col-md-6">
     
                       <select class="md-form mdb-select colorful-select dropdown-primary">
-                        <option value="" disabled selected>Choose your option</option>
+                        <option value="" disabled selected>Medida</option>
                         <option value="1">XS</option>
                         <option value="2">S</option>
                         <option value="3">L</option>
@@ -355,17 +361,24 @@
     
                     </div>
                   </div>
+                  <!--
                   <div class="text-center">
     
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     <button class="btn btn-secondary02"> <ion-icon name="cart"></ion-icon> Comprar
                     </button>
                   </div>
+                  -->
                 </div>
                 <!-- /.Add to Cart -->
               </div>
             </div>
           </div>
+          <div class="modal-footer-full-width  modal-footer mt-6">
+            <button type="button" class="btn btn-danger btn-md btn-rounded" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-secondary02 btn-md btn-rounded"><ion-icon name="cart"></ion-icon> Comprar</button>
+          </div>
+
         </div>
       </div>
     </div>
