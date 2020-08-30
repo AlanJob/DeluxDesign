@@ -175,6 +175,10 @@ a:hover{
 .modal-footer-full-width  {
   border-top: 1px solid #9ea2a2 !important;
 }
+.img-mini{
+  margin:0 3px;
+  padding: 10px;
+}
 
 /*
 .hero {
