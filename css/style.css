@@ -102,7 +102,7 @@ section{
 .jumbotron-1{
     /*background-color: rgba(0,0,0,0.8);*/
     /*background-image: url("../img/promo003.jpg");*/
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("../img/promo003.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("../img/Per.jpg");
     padding: 10rem 0;
 }
 
