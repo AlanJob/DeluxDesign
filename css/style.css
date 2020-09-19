@@ -99,6 +99,17 @@ section{
   border-color: var(--green) !important;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+.abajo{
+  margin-bottom: 2px !important;
+  position: inherit;
+}
+
+.jumbotron-0{
+  background-color: rgba(0,0,0,0.8);
+  background-image: url("../img/balet.png");
+  background-size: cover;
+  padding: 25rem 0;
+}
 .jumbotron-1{
     /*background-color: rgba(0,0,0,0.8);*/
     /*background-image: url("../img/promo003.jpg");*/
