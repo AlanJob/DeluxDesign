@@ -38,6 +38,9 @@
     opacity: 80%;
     border-radius: 2rem;
 }
+.bg-white{
+    background-color: var(--white);
+}
 .navbar{
     min-height: 5rem;
 }
@@ -185,7 +188,7 @@ a:hover{
 }
 .content-center{
 
-  padding: 7.35rem;
+  padding: 6.5rem;
   margin-top: 0rem;
 }
 
