@@ -164,10 +164,17 @@ section{
 }
 #descuento{
     background-image: linear-gradient(to right, orange, yellow);
+    height: 400px;
+}
+
+#producto{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("../img/Centro.jpg");
+    height: 400px;
 }
 
 #oferta{
     background-image: linear-gradient(to right, rgba(209,66,255,1),rgba(222,58,140));
+    height: 400px;
 }
 #cuatro{
     /*background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);*/
