@@ -6,6 +6,7 @@
     --blue: #4285f4;    
     --green: #00c851; 
     --integrity: #C1376A;
+    --gold:#61fd2c;
 }
 
 .text-green{
@@ -71,6 +72,10 @@ section{
 }
 .mt-6{
     margin-top: 4rem;
+}
+
+.mt-8{
+    margin-top: 7rem;
 }
 .bannerPromo{
     background: aqua;
@@ -263,4 +268,28 @@ a:hover{
 .img-mini{
   margin:0 3px;
   padding: 10px;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color: var(--gold);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: var(--gold);
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
 }
